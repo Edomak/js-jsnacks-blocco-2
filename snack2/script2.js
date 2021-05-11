@@ -36,15 +36,15 @@ var squadre = [
     },
 ];
 
-var puntiFalli = [];
+var nomeFalli = [];
 
 for (var i = 0; i < squadre.length; i++) {
 
     squadre[i]["punti"] = Math.floor((Math.random() * 50) + 1);
     squadre[i]["falli"] = Math.floor((Math.random() * 50) + 1);
-    puntiFalli.push(squadre[i]["nome"], squadre[i]["falli"])
+    nomeFalli.push(squadre[i]["nome"], squadre[i]["falli"])
 };
 
-console.log(puntiFalli);
+console.log(nomeFalli);
 
 console.log(squadre);
